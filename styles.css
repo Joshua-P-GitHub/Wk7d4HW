@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  border-left: 5px solid lightgray;
+}
+
+body{
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+}
+
+header, main, footer{
+  padding: 1rem 2rem;
+}
+
+h1{
+  color: tomato;
+}
+
+img {
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: lightgray
+}
+
+footer a {
+  color: tomato;
+}
+
+.title {
+  font-size: 2em
+}
+.continue{
+  text-align: right;
+}
+
+.continue a {
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+
+article{
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  
+}
+
+
+p span{
+  font-size: 4rem;
+  color: lightgray;
+  float: left;
+  padding-top: 4px;
+  padding-right: 14px;
+  padding-left: 3px;
+  line-height: 60px;
+}
+
+footer p {
+  color: lightgray;
+}
